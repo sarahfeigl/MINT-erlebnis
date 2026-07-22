@@ -1,4 +1,4 @@
 # MINT-erlebnis
 Website project for "MINT Erlebnis"
 
-Empty demo website atm
+Skeleton website for the participants to fill.
