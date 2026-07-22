@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Justus Jonas</title>
+<style>
+.display_message{
+    width: 400px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+</style>
+</head>
+<script>
+function sendMessage() {
+let text = document.getElementById("message").value;
+document.getElementById("chatbox").innerHTML += "<p>" + text + "</p>";
+document.getElementById("message").value = "";
+
+
+   }  
+
+</script>
+
+
+<body>
+<div id="chatbox" class="display_message">
+    <div>👋 Willkommen! Schreibe eine Nachricht.</div>
+</div>
+<input type="text" id="message" placeholder="Nachricht eingeben...">
+
+<button onclick="sendMessage()">Senden</button>
+
+</body>
+</html>
+
+<!-- https://davidbau.com/colors/ -->
